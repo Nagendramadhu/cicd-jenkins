@@ -34,7 +34,7 @@
 						<uri>https://anypoint.mulesoft.com</uri>
 						<muleVersion>4.3.0</muleVersion>
 						<username>Nagendramadhu</username>
-						<password></password>
+						<password/>
 						<applicationName>cicd jenkins</applicationName>
 						<environment>Sandbox</environment>
 						<workers>1</workers>
@@ -44,6 +44,7 @@
 							<key>value</key>
 						</properties>
 					</cloudHubDeployment>
+					<classifier>mule-application</classifier>
 				</configuration>
 			</plugin>
 		</plugins>
